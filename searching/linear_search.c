@@ -12,6 +12,7 @@ int main() {
   for (int i = 0; i < array_size; i++) {
     if (unsorted_array[i] == value) {
       printf("\nValue: %d\nPosition: %d\nLoops: %d", value, i, (i + 1));
+      return 0;
     }
   }
 }
